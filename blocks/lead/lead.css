@@ -1,0 +1,27 @@
+.lead {
+    display: grid;
+    grid-area: lead;
+    max-width: 984px;
+    margin: 0 auto;
+    padding: 56px 0 0;
+    justify-items: center;
+}
+@media screen and (max-width: 1024px) {
+    .lead {
+        display: grid;
+        grid-area: lead;
+        margin: 0 auto;
+        padding: 48px 0 0;
+        width: 90.625%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead {
+        display: grid;
+        grid-area: lead;
+        max-width: 984px;
+        margin: 0 auto;
+        padding: 56px 0 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+.intro {
+    grid-area: intro;
+    margin: 0 auto;
+    padding-top: 92px;
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 1024px) {
+    .intro {
+        grid-area: intro;
+        margin: 0 auto;
+        padding-top: 88px;
+        display: flex;
+        flex-direction: column;
+        width: 90.625%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro {
+        grid-area: intro;
+        margin: 0 auto;
+        padding-top: 88px;
+        display: flex;
+        flex-direction: column;
+        width: 93.75%;
+    }
+}
+@media screen and (max-width: 740px) {
+    .intro {
+        grid-area: intro;
+        margin: 0 auto;
+        padding-top: 64px;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+}

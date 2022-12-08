@@ -1,0 +1,12 @@
+.content {
+    display: grid;
+    width: 100%;
+    grid-area: content;
+    grid-template-areas: 
+        'lead'
+        'intro'
+        'photo-grid'
+        'places'
+        'cover';
+    justify-items: center;
+}

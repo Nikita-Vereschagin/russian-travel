@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: flex-start;
+    padding-top: 92px;
+    grid-area: footer;
+}
+@media screen and (max-width: 1024px) {
+    .footer {
+        display: flex;
+        width: 90.625%;
+        height: max-content;
+        justify-content: flex-start;
+        padding-top: 92px;
+        grid-area: footer;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        width: 93.75%;
+        height: max-content;
+        justify-content: flex-start;
+        padding-top: 88px;
+        grid-area: footer;
+    }
+}
+@media screen and (max-width: 740px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        justify-content: flex-start;
+        padding-top: 64px;
+        grid-area: footer;
+        width: 95%;
+    }
+}
