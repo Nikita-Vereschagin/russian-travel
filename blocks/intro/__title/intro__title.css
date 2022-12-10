@@ -9,12 +9,8 @@
 }
 @media screen and (max-width: 740px) {
     .intro__title {
-        font-style: normal;
-        font-weight: 900;
         font-size: 32px;
-        line-height: 35px;
-        width: 100%;
-        margin: 0;
-        padding-bottom: 40px;
+        line-height: 109%;
+        width: 85%;/*подставил такое значение ширины, так как 'не' не хочет переноситься, а если смотреть на макет, то она должна перенестись, размер подобрал на глаз.*/
     }
 }

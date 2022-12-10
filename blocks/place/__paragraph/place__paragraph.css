@@ -2,24 +2,18 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 29px;
     margin: 0;
     padding-bottom: 26px;
 }
 .place__paragraph:last-of-type {
     padding: 0;
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
     .place__paragraph {
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
-        line-height: 163%;
-        margin: 0;
         padding-bottom: 25px;
-    }
-
-    .place__paragraph:last-of-type {
-        padding: 0;
+        line-height: 26px;
     }
 }
+/*не понимаю почему в макете и у меня текст на 320 пикселях переносит по разному текст, может у меня что-то не так с ноубуком.*/

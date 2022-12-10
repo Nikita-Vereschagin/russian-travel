@@ -3,40 +3,33 @@
     display: grid;
     margin: auto;
     gap: 80px;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, max-content);
     padding-bottom: 92px;
     grid-area: places;
     width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .places {
         width: 90.625%;
         padding-top: 92px;
-        display: grid;
-        margin: auto;
         gap: 80px;
-        grid-template-rows: repeat(auto-fit, max-content);
-        padding-bottom: 92px;
     }
 }
 @media screen and (max-width: 768px) {
     .places {
         padding-top: 88px;
-        display: grid;
-        margin: auto;
         gap: 72px;
-        grid-template-rows: repeat(auto-fit, max-content);
         padding-bottom: 90px;
+        width: 93.75%;
     }
 }
 
 @media screen and (max-width: 740px) {
     .places {
+        width: 100%;
         padding-top: 64px;
-        display: grid;
-        margin: auto;
         gap: 50px;
-        grid-template-rows: repeat(auto-fit, max-content);
         padding-bottom: 66px;
     }
 }

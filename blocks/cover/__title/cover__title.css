@@ -8,16 +8,12 @@
     color: #fff;
     text-decoration: none;
     margin: 0 auto;
+    z-index: 3;
 }
 @media screen and (max-width: 740px) {
     .cover__title {
-        font-style: normal;
-        font-weight: 900;
         font-size: 32px;
-        line-height: 35px;
-        text-align: center;
-        color: #fff;
-        text-decoration: none;
-        margin: 0 auto;
+        line-height: 109%;
+        max-width: 250px; /*задал такую ширину, чтобы текст нормально перенесся */
     }
 }

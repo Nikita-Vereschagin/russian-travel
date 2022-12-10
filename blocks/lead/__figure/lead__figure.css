@@ -1,0 +1,7 @@
+.lead__figure {
+    grid-row: 3/4;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

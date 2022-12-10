@@ -1,16 +1,46 @@
 .cover__background {
-    height: 100%;
+    text-decoration: none;
+    position: relative;
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    background-color: rgba(42, 44, 47, .3);
+    min-height: 740px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-decoration: none;
+    z-index: 1;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
-.cover__background:hover {
-    background-color: rgba(42, 44, 47, .8);
+.cover__background::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    background: rgba(42, 44, 47, .3);
+    z-index: -1;
 }
+.cover__background:hover::before {
+    opacity: .8;
+    transition: .7s;
+}
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        min-height: 640px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover__background {
+        min-height: 480px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .cover__background {
+        min-height: 200px;
+    }
+}
+/*к сожалению пришлось сделать так, мне кажется лучше был прошлый вариант, в него конечно текста нельзя было бы слишком много положить, но он туда по сути и не нужен будет. это чисто пое мнение.*/

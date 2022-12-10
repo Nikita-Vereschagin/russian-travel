@@ -1,0 +1,12 @@
+.footer__link-li {
+    margin: 0 16px 0 0;
+}
+
+.footer__link-li:last-of-type {
+    margin: 0
+}
+@media screen and (max-width: 740px) {
+    .footer__link-li {
+        margin: 0 0 32px;
+    }
+}

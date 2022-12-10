@@ -1,0 +1,11 @@
+.header__links-container {
+    width: max-content;
+    margin-top: auto;
+    padding-bottom: 6px;
+    height: min-content;
+}
+@media screen and (max-width: 740px) {
+    .header__links-container {
+        padding-bottom: 8px;
+    }
+}
