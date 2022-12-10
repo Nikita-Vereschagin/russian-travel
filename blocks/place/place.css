@@ -22,8 +22,11 @@
 }
 @media screen and (max-width: 740px) {
     .place {
+        margin: 0;
+        padding: 0;
         max-width: 740px;
         width: 100%;
+        gap: 0;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(auto-fit, min-content);
         justify-items: center;
