@@ -14,4 +14,6 @@
 
 ### Работает на всех устройствах, инструкция использования проекта не предусмотрена.
 
+## GitHub Pages 
 
+### [https://nikita-vereschagin.github.io/russian-travel/]
