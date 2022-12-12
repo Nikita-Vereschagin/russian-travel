@@ -9,7 +9,7 @@
     z-index: 1;
     background-image: url(../../../images/cover-trains.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 .cover__background::before {
@@ -20,12 +20,11 @@
     top: 0;
     bottom: 0;
     right: 0;
-
     background: rgba(42, 44, 47, .3);
     z-index: -1;
 }
 .cover__background:hover::before {
-    opacity: .8;
+    background: rgba(42, 44, 47, .8);
     transition: .7s;
 }
 @media screen and (max-width: 1024px) {
@@ -43,4 +42,3 @@
         min-height: 200px;
     }
 }
-/*к сожалению пришлось сделать так, мне кажется лучше был прошлый вариант, в него конечно текста нельзя было бы слишком много положить, но он туда по сути и не нужен будет. это чисто пое мнение.*/
