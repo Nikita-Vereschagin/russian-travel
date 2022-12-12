@@ -2,7 +2,6 @@
     width: 100%;
     min-height: 52px;
     display: flex;
-    justify-content: space-between;
     grid-area: header;
 }
 @media screen and (max-width: 1279px) {
